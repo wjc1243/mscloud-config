@@ -1,0 +1,15 @@
+﻿spring: 
+  profiles: 
+    acrive:
+    -dev
+
+---
+spring: 
+  profiles: dev   #开发环境
+  application: 
+    name: mscloud-config-wjc-dev
+---
+spring: 
+  profiles: test   #开发环境
+  application: 
+    name: mscloud-config-wjc-test
