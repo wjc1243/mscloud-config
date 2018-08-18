@@ -1,7 +1,7 @@
 ﻿spring: 
   profiles: 
     acrive:
-    -dev
+    - dev
 
 ---
 spring: 
